@@ -9,9 +9,9 @@ const loginCtrl = async(req, res) => {
 
         const mockUser = {
             name: 'Nicolas',
-            email: 'nico_e123@outlook.com',
+            email: 'test@test.com',
             password: '12345678',
-            avatar: 'https://w7.pngwing.com/pngs/600/114/png-transparent-dragon-kali-linux-android-linux-logo-silhouette-linux.png'
+            avatar: ''
         }
 
         const { email, password } = req.body
